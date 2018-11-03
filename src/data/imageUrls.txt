@@ -1,0 +1,12 @@
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/australia.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/bolivia.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/egypt.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/fitzroy.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/maldives.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/nepal.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/paradisebay.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/paris.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/rwanda.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/santorini.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/surfer.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/tajmahal.jpg
