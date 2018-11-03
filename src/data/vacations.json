@@ -50,7 +50,7 @@
                 "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/egypt.jpg"
             ],
             "price": "$",
-            "description": "Spend two weeks learning about Egyptian history.",
+            "description": "Experience the wonders of ancient Egypt with this two week tour.",
             "location": "Egypt",
             "keywords": [
                 "terrace",
@@ -92,7 +92,7 @@
                 "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/maldives.jpg"
             ],
             "price": "$$$",
-            "description": "Rest and relaxation in paradise! In the maldives you can swim, snorkel, dive, fish, and a host of other activities to recharge your body and mind.",
+            "description": "Rest and relaxation in paradise! In the Maldives you can swim, snorkel, dive, fish, and a host of other activities to recharge your body and mind.",
             "location": "Maldives",
             "keywords": [
                 "view",
@@ -111,12 +111,12 @@
         },
         {
             "id": 6,
-            "title": "Getaway to Everest Base Camp",
+            "title": "Himalaya Trek",
             "photo": [
                 "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/nepal.jpg"
             ],
             "price": "$",
-            "description": "Push yourself to your limit as you hike to base camp of the highest mountain on earth, Mt. Everest.",
+            "description": "Push yourself to your limit as you hike through the Himalayas to base camp of Mt. Everest.",
             "location": "Nepal",
             "keywords": [
                 "mountains",
