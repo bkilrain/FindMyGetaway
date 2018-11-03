@@ -1,6 +1,12 @@
 # Find My Getaway Web App
 This project's goal is to search vacation packages based on images that users submit to the website. 
 
+## Developers
+Brian Kilrain (bkilrain@gmail.com)
+Perry Chow (perrychow@yahoo.com)
+Warren Schrader (wwschrader@gmail.com)
+Murrium Zaheer (murriumcra09@gmail.com)
+Tia Esguerra (msksfo@gmail.com)
 
 #### `npm start`
 
