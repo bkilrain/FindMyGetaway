@@ -131,6 +131,66 @@
                 "fitness"
             ],
             "duration": 15
+        },
+        {
+            "id": 7,
+            "title": "Paradise Bay",
+            "photo": ["https://s3-us-west-1.amazonaws.com/findmygetaway/photos/paradisebay.jpg"],
+            "price": "$",
+            "description": "Destination of your dreams, this paradise bay was made for the living with amenities that only deities can dream of.",
+            "location": "Antarctica",
+            "keywords": ["Surroundings","Winter","Snow & Ski Sports"],
+            "duration": 15
+        },
+        {
+            "id": 8,
+            "title": "Paris",
+            "photo": ["https://s3-us-west-1.amazonaws.com/findmygetaway/photos/paris.jpg"],
+            "price": "$$",
+            "description": "Bonjour, salut et bienvenue mon Ami. Welcome to the city of love where there is no shortage of love for the random stranger.",
+            "location": "France",
+            "keywords": ["View","Surroundings","Nighttime","Animals","Daytime"],
+            "duration": 4
+        },
+        {
+            "id": 9,
+            "title": "Rwanda",
+            "photo": ["https://s3-us-west-1.amazonaws.com/findmygetaway/photos/rwanda.jpg"],
+            "price": "$$$",
+            "description": "Allow yourself to rediscover the reminiscence that transcends earth. There is an abundance of wildlife which would astound your senses.",
+            "location": "Rwanda",
+            "keywords": ["Animals"],
+            "duration": 6
+        },
+        {
+            "id": 10,
+            "title": "Santorini",
+            "photo": ["https://s3-us-west-1.amazonaws.com/findmygetaway/photos/santorini.jpg"],
+            "price": "$$$",
+            "description": "The majestic atmosphere will take your breath away. You are never going to feel such transcendance like this again.",
+            "location": "Greece",
+            "keywords": ["Terrace","View","Kids Area","Entrance","Beach","Surroundings"],
+            "duration": 5
+        },
+        {
+            "id": 11,
+            "title": "Miami",
+            "photo": ["https://s3-us-west-1.amazonaws.com/findmygetaway/photos/surfer.jpg"],
+            "price": "$",
+            "description": "Destination of your dreams, this paradise bay was made for the living with amenities that only deities can dream of.",
+            "location": "Florida, USA",
+           "keywords": ["Water Sports","Beach"],
+            "duration": 10
+        },
+        {
+            "id": 12,
+            "title": "Taj Mahal",
+            "photo": ["https://s3-us-west-1.amazonaws.com/findmygetaway/photos/tajmahal.jpg"],
+            "price": "$$",
+            "description": "This is no ordinary declaration of love, it is the biggest gift that a husband can give to his wife. The love is ever present in the building built with the utmost dedication.",
+            "location": "India",
+            "keywords": ["View","Daytime","Surroundings","Yoga","Terrace","Autumn"],
+            "duration": 8
         }
     ]
 }
