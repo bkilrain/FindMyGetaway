@@ -1,0 +1,136 @@
+{
+    "vacations": [
+        {
+            "id": 1,
+            "title": "Down Under Getaway",
+            "photo": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/australia.jpg"
+            ],
+            "price": "$$",
+            "description": "Spend 10 days touring the highlights of Australia, including Sydney, Uluru, and the Great Barrier Reef.",
+            "location": "Australia",
+            "keywords": [
+                "city",
+                "summer",
+                "outback",
+                "boat",
+                "beach",
+                "water sports",
+                "surroundings",
+                "daytime",
+                "australia"
+            ],
+            "duration": 10
+        },
+        {
+            "id": 2,
+            "title": "Bolivian Farm Working Holiday",
+            "photo": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/bolivia.jpg"
+            ],
+            "price": "$",
+            "description": "Live with a Bolivian family and work on their farm for five days.",
+            "location": "Bolivia",
+            "keywords": [
+                "animals",
+                "summer",
+                "autumn",
+                "spring",
+                "surroundings",
+                "daytime",
+                "farm",
+                "working holiday"
+            ],
+            "duration": 5
+        },
+        {
+            "id": 3,
+            "title": "Egyptian History Getaway",
+            "photo": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/egypt.jpg"
+            ],
+            "price": "$",
+            "description": "Spend two weeks learning about Egyptian history.",
+            "location": "Egypt",
+            "keywords": [
+                "terrace",
+                "summer",
+                "history",
+                "culture",
+                "egypt",
+                "antiquities",
+                "surroundings"
+            ],
+            "duration": 14
+        },
+        {
+            "id": 4,
+            "title": "Hike Through Patagonia",
+            "photo": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/fitzroy.jpg"
+            ],
+            "price": "$$",
+            "description": "Begin your getaway in Bariloche and hike your way South, ending up in Torres del Paine National Park.",
+            "location": "Argentina & Chile",
+            "keywords": [
+                "patagonia",
+                "summer",
+                "autumn",
+                "spring",
+                "hiking",
+                "water sports",
+                "surroundings",
+                "nature",
+                "fitness"
+            ],
+            "duration": 17
+        },
+        {
+            "id": 5,
+            "title": "Getaway To Paradise",
+            "photo": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/maldives.jpg"
+            ],
+            "price": "$$$",
+            "description": "Rest and relaxation in paradise! In the maldives you can swim, snorkel, dive, fish, and a host of other activities to recharge your body and mind.",
+            "location": "Maldives",
+            "keywords": [
+                "view",
+                "summer",
+                "dive",
+                "snorkel",
+                "boat",
+                "beach",
+                "water sports",
+                "surroundings",
+                "autumn",
+                "yoga",
+                "relax"
+            ],
+            "duration": 7
+        },
+        {
+            "id": 6,
+            "title": "Getaway to Everest Base Camp",
+            "photo": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/nepal.jpg"
+            ],
+            "price": "$",
+            "description": "Push yourself to your limit as you hike to base camp of the highest mountain on earth, Mt. Everest.",
+            "location": "Nepal",
+            "keywords": [
+                "mountains",
+                "hiking",
+                "snow",
+                "terrace",
+                "summer",
+                "autumn",
+                "spring",
+                "fitness",
+                "asia",
+                "fitness"
+            ],
+            "duration": 15
+        }
+    ]
+}
