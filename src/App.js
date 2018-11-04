@@ -46,6 +46,7 @@ class App extends Component {
           <Route path="/search" component={this.renderVacationCards} />
           <Route path="/contact" component={ContactForm} />
         </header>
+        <ContactForm/>
       </div>
     );
   }
