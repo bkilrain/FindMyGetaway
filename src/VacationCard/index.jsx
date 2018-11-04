@@ -18,9 +18,6 @@ const VacationCard = ({ title, photos, description, price, duration, location, a
         <p className="vacationDescription"><span className="bold">Description</span>: {description}</p>
       </div>
 
-
-
-
     </div>
   );
 };
