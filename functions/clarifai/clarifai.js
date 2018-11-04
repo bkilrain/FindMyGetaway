@@ -6,7 +6,9 @@ const predict = (event, context, callback) => {
   });
   callback(null, {
     statusCode: 200,
-    body: { data: "here", api: process.env.CLARIFAI_KEY }
+    body: JSON.stringify({
+      data: { here: "here", api: process.env.CLARIFAI_KEY }
+    })
   });
 };
 
