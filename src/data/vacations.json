@@ -244,6 +244,27 @@
                 "Autumn"
             ],
             "duration": 8
+        },
+        {
+            "id": 13,
+            "title": "Cuba",
+            "photos": [
+                "https://s3-us-west-1.amazonaws.com/findmygetaway/photos/cuba.jpg"
+            ],
+            "alt": "Cuban street musicians",
+            "price": "$$",
+            "description": "Love Latin music? Spend a week learning from the best in Havana.",
+            "location": "Cuba",
+            "keywords": [
+                "Culture",
+                "Daytime",
+                "Surroundings",
+                "Music",
+                "City",
+                "Cuba",
+                "North America"
+            ],
+            "duration": 7
         }
     ]
 }
