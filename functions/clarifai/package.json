@@ -1,0 +1,15 @@
+{
+  "name": "clarifai",
+  "version": "0.1.0",
+  "description": "Hit clarifai API for Find My Getaway App",
+  "main": "clarifai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Kilrain",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.9.0"
+  },
+  "devDependencies": {}
+}
