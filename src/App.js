@@ -3,7 +3,7 @@ import { Router } from "director/build/director";
 
 import Login from "./Login";
 import VacationCard from "./VacationCard";
-/*import FileUpload from "./fileUpload";*/
+import ContactForm from "./contactform";
 import LandingPage from './landing'
 import data from "./data/vacations.json";
 
