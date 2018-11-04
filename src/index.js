@@ -6,11 +6,11 @@ import TodoModel from "./TodoModel";
 var model = new TodoModel("react-todos");
 
 function render() {
-  window
-    .fetch("/.netlify/functions/clarifai")
-    .then(res => res.json())
-    .then(json => console.log(json));
-  console.log("render callback");
+  // window
+  //   .fetch("/.netlify/functions/clarifai")
+  //   .then(res => res.json())
+  //   .then(json => console.log(json));
+  // console.log("render callback");
   ReactDOM.render(
     <App model={model} />,
     document.getElementsByClassName("todoapp")[0]
