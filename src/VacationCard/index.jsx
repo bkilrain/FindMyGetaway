@@ -16,6 +16,8 @@ const VacationCard = ({ title, photos, description, price, duration, location, a
         <p className="vacationDuration information"><span className="bold">Duration</span>: {duration} days</p>
         <p className="vacationPrice information"><span className="bold">Price Point</span>: {price}</p>
         <p className="vacationDescription"><span className="bold">Description</span>: {description}</p>
+
+        <button className="contactButton">Contact us about this vacation</button>
       </div>
 
     </div>

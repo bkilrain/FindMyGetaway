@@ -52,6 +52,16 @@
 }
 
 
+.contactButton {
+    width: 100%;
+    background-color: #ffe682;
+    font-size: 1.08rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
 /*********** image styles **********/
 .imageWrapper {
     max-width: 100%;

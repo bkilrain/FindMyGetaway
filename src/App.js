@@ -49,11 +49,11 @@ class App extends Component {
             onAuthChange={this.onAuthChange.bind(this)}
           />
           {/*{this.state.faunadb_token ? this.renderFileUpload() : ""} */}
-          {/* {this.state.faunadb_token ? this.renderVacationCards() : ""} */}
-          {this.state.faunadb_token ? this.renderLandingPage() : ""}
+          {this.state.faunadb_token ? this.renderVacationCards() : ""}
+          {/* {this.state.faunadb_token ? this.renderLandingPage() : ""} */}
 
         </header>
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
     );
   }
