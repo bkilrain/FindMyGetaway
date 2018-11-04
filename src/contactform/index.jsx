@@ -4,7 +4,7 @@ const ContactForm = () => {
 
   return (
     <form
-        action="https://formspree.io/perrychow@yahoo.com"
+        action="https://formspree.io/mqldbnpx"
         method="POST"
         onSubmit={this}
         >
