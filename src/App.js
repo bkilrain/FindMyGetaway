@@ -3,6 +3,7 @@ import { Router } from "director/build/director";
 
 import Login from "./Login";
 import VacationCard from "./VacationCard";
+import FileUpload from "./fileUpload";
 
 import data from "./data/vacations.json";
 
@@ -17,6 +18,10 @@ class App extends Component {
   renderVacationCards = () => {
     return data.vacations.map(vacation => <VacationCard {...vacation} />);
   };
+
+  renderFileUpload = () => {
+    return <FileUpload/>;
+  }
 
   onError = err => {
     console.error(err);
@@ -37,6 +42,7 @@ class App extends Component {
             onError={this.onError.bind(this)}
             onAuthChange={this.onAuthChange.bind(this)}
           />
+          {this.state.faunadb_token ? this.renderFileUpload() : ""}
           {this.state.faunadb_token ? this.renderVacationCards() : ""}
         </header>
       </div>
