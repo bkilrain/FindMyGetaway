@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Router } from "director/build/director";
+import { Route } from "react-router-dom";
 
 import Login from "./Login";
 import VacationCard from "./VacationCard";
@@ -18,12 +18,6 @@ class App extends Component {
   renderVacationCards = () => {
     return data.vacations.map(vacation => <VacationCard {...vacation} />);
   };
-
-  /*
-  renderFileUpload = () => {
-    return <FileUpload />;
-  }
-*/
 
   renderLandingPage = () => {
     return <LandingPage />
@@ -48,12 +42,10 @@ class App extends Component {
             onError={this.onError.bind(this)}
             onAuthChange={this.onAuthChange.bind(this)}
           />
-          {/*{this.state.faunadb_token ? this.renderFileUpload() : ""} */}
-          {this.state.faunadb_token ? this.renderVacationCards() : ""}
-          {/* {this.state.faunadb_token ? this.renderLandingPage() : ""} */}
-
+          <Route exact path="/" component={this.renderLandingPage} />
+          <Route path="/search" component={this.renderVacationCards} />
+          <Route path="/contact" component={ContactForm} />
         </header>
-        {/* <ContactForm /> */}
       </div>
     );
   }
