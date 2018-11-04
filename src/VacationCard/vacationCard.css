@@ -1,0 +1,51 @@
+/*********** vacation card styles ***********/
+.vacationCard {
+    display: grid;
+    padding: 0 15px;
+    border: 4px double #316ac2;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+.vacationTitle {
+    text-align: center;
+    letter-spacing: .7px;
+    font-size: 1.7rem;
+    padding: 10px 5px;
+    background-color: #275499;
+    color: white;
+}
+
+.vacationDescription {
+    font-size: 1.08rem;
+    line-height: 1.5;
+}
+
+.vacationPrice {
+    font-size: 1.08rem;
+}
+
+.vacationDuration {
+    font-size: 1.08rem;
+}
+
+.vacationLocation {
+    font-size: 1.08rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*********** image styles **********/
+
+.imageWrapper {
+    max-width: 100%;
+}
+
+.image {
+    max-width: 100%;
+    border: 1px solid black;
+}

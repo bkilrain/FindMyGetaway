@@ -1,12 +1,21 @@
 import React from "react";
 import "./vacationCard.css";
 
-const VacationCard = ({ title, photos, description }) => {
+const VacationCard = ({ title, photos, description, price, duration, location }) => {
   return (
-    <div className={"vacationCard"}>
-      <h1>{title}</h1>
-      <img src={photos[0]} alt={description} />
-      <p>{description}</p>
+    <div className="vacationCard">
+      <div className="vacationInformation">
+        <h1 className="vacationTitle">{title}</h1>
+        <p className="vacationLocation"><span className="bold">Location</span>: {location}</p>
+        <p className="vacationDuration"><span className="bold">Duration</span>: {duration} days</p>
+        <p className="vacationPrice"><span className="bold">Price Point</span>: {price}</p>
+        <p className="vacationDescription"><span className="bold">Description</span>: {description}</p>
+      </div>
+
+      <figure className="imageWrapper">
+        <img className="image" src={photos[0]} alt={description} />
+      </figure>
+
     </div>
   );
 };
