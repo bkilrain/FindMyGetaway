@@ -1,7 +1,7 @@
 import React from "react";
 import "./vacationCard.css";
 
-const VacationCard = ({ title, photos, description, price, duration, location }) => {
+const VacationCard = ({ title, photos, description, price, duration, location, alt }) => {
   return (
     <div className="vacationCard">
       <div className="vacationInformation">
@@ -13,7 +13,7 @@ const VacationCard = ({ title, photos, description, price, duration, location })
       </div>
 
       <figure className="imageWrapper">
-        <img className="image" src={photos[0]} alt={description} />
+        <img className="image" src={photos[0]} alt={alt} />
       </figure>
 
     </div>
