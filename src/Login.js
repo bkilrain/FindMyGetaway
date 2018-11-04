@@ -53,6 +53,8 @@ class Login extends Component {
       console.error("Expected user to have a faunadb_token, check logs for the identity-signup.js function.")
       console.log(this.state.user)
     }
+    // Close the modal, get rid of the dialog automatically after log-in accepted
+    netlifyIdentity.close();
   }
 
   didLogout() {
