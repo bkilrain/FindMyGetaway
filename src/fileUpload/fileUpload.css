@@ -1,0 +1,26 @@
+.fileUpload {
+    margin-top: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn {
+  background-color: #193663;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  width: 100%;
+}
+
+
+.fileUpload input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

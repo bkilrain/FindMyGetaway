@@ -3,9 +3,8 @@ import { Router } from "director/build/director";
 
 import Login from "./Login";
 import VacationCard from "./VacationCard";
-import FileUpload from "./fileUpload";
 import ContactForm from "./contactform";
-
+import LandingPage from './landing'
 import data from "./data/vacations.json";
 
 class App extends Component {
@@ -20,8 +19,14 @@ class App extends Component {
     return data.vacations.map(vacation => <VacationCard {...vacation} />);
   };
 
+  /*
   renderFileUpload = () => {
-    return <FileUpload/>;
+    return <FileUpload />;
+  }
+*/
+
+  renderLandingPage = () => {
+    return <LandingPage />
   }
 
   onError = err => {
@@ -43,10 +48,12 @@ class App extends Component {
             onError={this.onError.bind(this)}
             onAuthChange={this.onAuthChange.bind(this)}
           />
-          {this.state.faunadb_token ? this.renderFileUpload() : ""}
-          {this.state.faunadb_token ? this.renderVacationCards() : ""}
+          {/*{this.state.faunadb_token ? this.renderFileUpload() : ""} */}
+          {/* {this.state.faunadb_token ? this.renderVacationCards() : ""} */}
+          {this.state.faunadb_token ? this.renderLandingPage() : ""}
+
         </header>
-          <ContactForm />
+        <ContactForm />
       </div>
     );
   }

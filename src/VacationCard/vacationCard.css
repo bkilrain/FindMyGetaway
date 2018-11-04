@@ -1,8 +1,9 @@
 /*********** vacation card styles ***********/
 .vacationCard {
     display: grid;
-    padding: 0 15px;
+    padding: 0 15px 22.5px;
     border: 4px double #316ac2;
+    border-radius: 5px;
     max-width: 700px;
     margin: 0 auto;
     background-color: #f6f6f6;
@@ -15,6 +16,14 @@
     padding: 10px 5px;
     background-color: #275499;
     color: white;
+}
+
+.informationWrapper {
+    border-left: 2px solid #ffd52d;
+    box-shadow: inset 0 0 2px #bbb;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 .vacationDescription {
@@ -38,9 +47,12 @@
     font-weight: bold;
 }
 
+.information {
+    margin-bottom: 0;
+}
+
 
 /*********** image styles **********/
-
 .imageWrapper {
     max-width: 100%;
 }

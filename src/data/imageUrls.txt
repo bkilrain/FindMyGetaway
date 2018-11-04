@@ -10,3 +10,4 @@ https://s3-us-west-1.amazonaws.com/findmygetaway/photos/rwanda.jpg
 https://s3-us-west-1.amazonaws.com/findmygetaway/photos/santorini.jpg
 https://s3-us-west-1.amazonaws.com/findmygetaway/photos/surfer.jpg
 https://s3-us-west-1.amazonaws.com/findmygetaway/photos/tajmahal.jpg
+https://s3-us-west-1.amazonaws.com/findmygetaway/photos/cuba.jpg
