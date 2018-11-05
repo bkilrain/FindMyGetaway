@@ -1,23 +1,27 @@
 import React from "react";
 import "./fileUpload.css";
 import { Redirect } from "react-router-dom";
+import utils from '../utils'
 
 class FileUpload extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      shouldRedirect: false
+      shouldRedirect: false,
+      results: {}
     };
   }
 
-  handleFileUpload = (file) => {
+  handleFileUpload = async (file) => {
     console.log('File Selected');
     console.log(file);
     // input Clarifai handling here
 
-    setTimeout(() => {
-      this.setState({shouldRedirect: true})
-    },(2000));
+    const res = await utils.searchClarify(file);
+
+    console.log(res)
+    this.setState({shouldRedirect: true, results: res})
+
     
   }
 
@@ -27,8 +31,8 @@ class FileUpload extends React.Component {
     return(
       <div class="fileUpload">
         <button class="btn">Upload a file</button>
-        <input type='file' accept='image/*' onChange={(e) => this.handleFileUpload(e.target.files)} />
-        {this.state.shouldRedirect ? <Redirect to="/search" /> : ""}
+        <input type='file' accept='image/*' onChange={(e) => this.handleFileUpload(e.target.files[0])} />
+        {this.state.shouldRedirect ? <Redirect to="/search" results={this.state.results} /> : ""}
       </div>
   
     );

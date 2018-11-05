@@ -15,7 +15,8 @@ class App extends Component {
     };
   }
 
-  renderVacationCards = () => {
+  renderVacationCards = ({results}) => {
+    console.log(results)
     return data.vacations.map(vacation => <VacationCard {...vacation} />);
   };
 

@@ -49,22 +49,17 @@ export default {
     return newObj;
   },
 
-  searchClarify: file => {
-		console.log(file)
-    window.fetch(
+  searchClarify: async file => {
+    const response = await window.fetch(
       `/.netlify/functions/clarifai`,
       {
 				method: "POST",
-				// type: 'image/json',
         body: file
       }
-    ).then(res => {
-			console.log('resing', res)
-			return res.json()
-		}).then(json => console.log(json)).catch(err => console.log(err))
-		// const res = await response.json();
-		// console.log(res)
-		// return res
+		)
+		const json = await response.json()
+		
+		return json
   }
 };
 

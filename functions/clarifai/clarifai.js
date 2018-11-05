@@ -12,9 +12,9 @@ const predict = (event, context, callback) => {
       callback(null, { statusCode: 200, body: JSON.stringify(response)})
     },
     function (err) {
-      callback(err)
+      callback(JSON.stringify(err))
     }
-  ).catch(err => callback(err));
+  ).catch(err => callback(JSON.stringify(err)));
 
 }
   
