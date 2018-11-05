@@ -16,8 +16,11 @@ class App extends Component {
   }
 
   renderVacationCards = (props) => {
-    console.log(props.location.state)
-    return data.vacations.map(vacation => <VacationCard {...vacation} />);
+    console.log(props.location.state.hits)
+    return props.location.state.hits.map(match => {
+      const vacation = data.vacations.filter(v => v.photos[0] === match.input.data.image.url).pop()
+      return <VacationCard {...vacation} />
+    });
   };
 
   renderLandingPage = () => {
