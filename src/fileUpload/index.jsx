@@ -32,7 +32,7 @@ class FileUpload extends React.Component {
       <div class="fileUpload">
         <button class="btn">Upload a file</button>
         <input type='file' accept='image/*' onChange={(e) => this.handleFileUpload(e.target.files[0])} />
-        {this.state.shouldRedirect ? <Redirect to="/search" results={this.state.results} /> : ""}
+        {this.state.shouldRedirect ? <Redirect to={{pathname: "/search", state: this.state.results}} /> : ""}
       </div>
   
     );
