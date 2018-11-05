@@ -20,7 +20,7 @@ class App extends Component {
   };
 
   renderLandingPage = () => {
-    return <LandingPage />
+    return <LandingPage  />
   }
 
   onError = err => {
